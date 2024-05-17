@@ -231,7 +231,8 @@ CNN(Convolutional Neural Network)는 합성곱신경망으로도 불립니다. �
 
 CNN은 이미지 전체를 작은 단위로 쪼개어 각 부분을 분석하는데, 이는 이미지를 인식하기 위한 패턴을 찾는 데 유용합니다. 데이터를 통해 특징을 스스로 학습하고, 패턴을 사용하여 이미지를 분류합니다. 또한 특징을 수동으로 추출할 필요가 없습니다. 더불어 기존 네트워크를 바탕으로 새로운 인식 작업을 위해 CNN을 재학습하여 사용하는 것이 가능합니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/18932475-e93f-407a-96ba-1b8beae06cba/2ba7ebfb-f55d-4977-b189-efb8060043ba/Untitled.png)
+![image](https://github.com/pladata-encore/DE30-2nd-3/assets/127280706/6273e337-d062-476f-801f-2ba40368a8ee)
+
 
 - 모델 코드 상세 설명
 1. **입력 레이어 (Input Layer)**:
@@ -269,7 +270,8 @@ history = model.fit(x_train, y_train,
 										validation_data = (x_val, y_val),epochs = 45)
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/18932475-e93f-407a-96ba-1b8beae06cba/4f80dfb2-cfff-404b-9613-2b22e0681e8a/Untitled.png)
+![image](https://github.com/pladata-encore/DE30-2nd-3/assets/127280706/ca7aa4b3-efa0-479a-822c-91d7e6fb76da)
+
 
 - 성능 평가
 
@@ -279,7 +281,8 @@ print("Test Loss:", test_loss)
 print("Test Accuracy:", test_accuracy)
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/18932475-e93f-407a-96ba-1b8beae06cba/6c395b08-f644-4d64-b60f-1d1d35ceae21/Untitled.png)
+![image](https://github.com/pladata-encore/DE30-2nd-3/assets/127280706/1b27d5aa-533a-47b8-9d64-6f33b24b0aee)
+
 
 - accuracy 그래프
 
@@ -291,7 +294,8 @@ plt.ylabel('Accuracy')
 plt.legend(loc = 'best')
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/18932475-e93f-407a-96ba-1b8beae06cba/b0104e27-6b72-45d7-a56c-a8654da4975a/Untitled.png)
+![image](https://github.com/pladata-encore/DE30-2nd-3/assets/127280706/9d08d40d-d7d9-427a-9952-6c436f374276)
+
 
 이 그래프는 모델의 학습 및 검증 과정에서의 정확도(accuracy) 변화를 보여줍니다. 파란색 선은 훈련 데이터(train accuracy)에 대한 정확도 변화를 나타내고, 주황색 선은 검증 데이터(validation accuracy)에 대한 정확도 변화를 나타냅니다. 
 
@@ -331,7 +335,8 @@ plt.ylabel('Loss')
 plt.legend(loc = 'best')
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/18932475-e93f-407a-96ba-1b8beae06cba/e54548d0-5e94-48c1-b921-2b25df6fca8e/Untitled.png)
+![image](https://github.com/pladata-encore/DE30-2nd-3/assets/127280706/becb6715-9b9c-4d45-b37d-e23efe6701d3)
+
 
 이 그래프는 모델의 학습 및 검증 과정에서의 손실(loss) 변화를 보여줍니다. 파란색 선은 훈련 데이터(train loss)에 대한 손실 변화를 나타내고, 주황색 선은 검증 데이터(validation loss)에 대한 손실 변화를 나타냅니다. 
 
@@ -403,7 +408,8 @@ plt.title(predicted_category)
 plt.show()
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/18932475-e93f-407a-96ba-1b8beae06cba/b3649438-d434-49e4-9096-c601749628b8/Untitled.png)
+![image](https://github.com/pladata-encore/DE30-2nd-3/assets/127280706/8ac367c4-ab4c-4a35-b1e7-19e3feb19e11)
+
 
 ## 제 1종 오류, 2종 오류
 
@@ -440,7 +446,8 @@ plt.title('Confusion Matrix')
 plt.show()
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/18932475-e93f-407a-96ba-1b8beae06cba/aac9baec-4abe-47ff-98b5-8f40403d5f75/Untitled.png)
+![image](https://github.com/pladata-encore/DE30-2nd-3/assets/127280706/0bfe2fbf-6674-420f-a4dc-f0fbc7bbe5c9)
+
 
 이 혼동 행렬(confusion matrix)은 모델이 네 가지 클래스를 예측한 결과를 보여줍니다: 편평 세포 암종(squamous cell carcinoma), 선암(adenocarcinoma), 대세포 암종(large cell carcinoma), 정상(normal)입니다. 각 행은 실제 라벨을, 각 열은 모델의 예측 라벨을 나타냅니다.
 
