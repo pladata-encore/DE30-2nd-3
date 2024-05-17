@@ -30,6 +30,8 @@
 # 데이터 수집
 
 
-# 모델 1 (Pytorch를 사용한 폐암 예측 모델)
-# 모델 2 (Tensorflow/Keras를 사용한 폐암 예측 모델)
+# 모델 1 
+## Pytorch를 사용한 폐암 예측 모델
+# 모델 2 
+## Tensorflow/Keras를 사용한 폐암 예측 모델
 
