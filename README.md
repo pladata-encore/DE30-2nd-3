@@ -28,18 +28,10 @@
 폐암은 특히 한국에서 발생률과 사망률이 높은 질병 중 하나입니다. 조기 발견이 어려워 진단 시점에서 이미 진행된 상태인 경우가 많습니다.  이 예측 모델을 활용하면 조기 발견을 통해 환자의 생존율을 높일 수 있습니다. 또한 조기 진단과 치료는 질병이 진행된 후 치료하는 것보다 비용 효율적입니다. 의료진의 진단 과정을 지원하여 더 많은 환자를 더 정확하게 진료할 수 있게 합니다. 이는 의료진의 업무 만족도와 효율성을 높일 것입니다.
 
 # 팀원 소개
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href=""><img src="width="100px;" alt=""/><br /><sub><b> 팀장 : 조현나</b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="![KakaoTalk_20240517_153551974](https://github.com/pladata-encore/DE30-2nd-3/assets/127280706/3cfc04de-0e72-4c4f-9355-94f595da2e42)
-" width="100px;" alt=""/><br /><sub><b> 팀원 : 최은서</b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b> 팀원 : 곽태호</b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b> 팀원 : 김시환</b></sub></a><br /></td>
-    </tr>
-  </tbody>
-</table>
-
+- `조현나(팀장)` :
+- `최은서` : 모델2(Tensorflow/Keras를 사용한 폐암 예측 모델) 구축
+- `곽태호` : 
+- `김시환` :
 
 # 데이터 수집
 
