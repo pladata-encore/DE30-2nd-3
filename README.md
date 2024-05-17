@@ -4,6 +4,12 @@
 ![image](https://github.com/pladata-encore/DE30-2nd-3/assets/127280706/cc22352a-34fc-4c21-b84f-7ff13d558a6b)
 
 ### 사용 라이브러리
+   - `Image`, `torch`, `nn`, `optim`, `lr_scheduler`, `transforms`
+   - `pandas`, `numpy`
+   - `matplotlib`, `plt`, `time`, `random`
+   - `torchvision `, `datasets`, `train_test_split`, `random_split`
+   -  `os`,  `glob`, `collections`
+   -  `Sequential`, `Conv2D`, `AvgPool2D`, `MaxPooling2D`, `Flatten`, `Dense`, `Dropout`
 
 ### 작업 툴
 - Jupyter Lab
