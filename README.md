@@ -31,10 +31,11 @@
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href=""><img src="width="100px;" alt=""/><br /><sub><b>FE 팀장 : 조현나</b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>FE 팀원 : 최은서</b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>FE 팀원 : </b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>FE 팀원 : </b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="width="100px;" alt=""/><br /><sub><b> 팀장 : 조현나</b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="![KakaoTalk_20240517_153551974](https://github.com/pladata-encore/DE30-2nd-3/assets/127280706/3cfc04de-0e72-4c4f-9355-94f595da2e42)
+" width="100px;" alt=""/><br /><sub><b> 팀원 : 최은서</b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b> 팀원 : 곽태호</b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b> 팀원 : 김시환</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
